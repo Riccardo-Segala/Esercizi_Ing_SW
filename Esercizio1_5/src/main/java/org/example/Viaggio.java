@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Objects;
+
 public abstract class Viaggio
 {
     private String destinazione;
@@ -36,6 +38,17 @@ public abstract class Viaggio
     public void setNumeroPosto()
     {
         this.numeroPosto = numeroPosto;
+    }
+
+    @Override
+    public boolean equals(Object o)
+    {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Viaggio viaggio = (Viaggio) o;
+        return prezzo == viaggio.prezzo &&
+                Objects.equals(destinazione, viaggio.destinazione) &&
+                Objects.equals(numeroPosto, viaggio.numeroPosto);
     }
 
     public abstract void descriviViaggio();
