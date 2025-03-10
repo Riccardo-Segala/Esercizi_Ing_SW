@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Esercizio1_1" target="23" />
+      <module name="Esercizio1_1.main" target="23" />
+      <module name="Esercizio1_1.test" target="23" />
+      <module name="Esercizio1_2" target="23" />
+      <module name="Esercizio1_2.main" target="23" />
+      <module name="Esercizio1_2.test" target="23" />
+      <module name="Esercizio1_3" target="23" />
+      <module name="Esercizio1_3.main" target="23" />
+      <module name="Esercizio1_3.test" target="23" />
+      <module name="Esercizio1_4" target="23" />
+      <module name="Esercizio1_4.main" target="23" />
+      <module name="Esercizio1_4.test" target="23" />
+      <module name="Esercizio1_5" target="23" />
+      <module name="Esercizio1_5.main" target="23" />
+      <module name="Esercizio1_5.test" target="23" />
+      <module name="Esercizio1_6" target="23" />
+      <module name="Esercizio1_6.main" target="23" />
+      <module name="Esercizio1_6.test" target="23" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
